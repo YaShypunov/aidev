@@ -1,5 +1,6 @@
 import TestMessage from '@/components/TestMessage';
 import Image from 'next/image';
+import { Suspense } from 'react';
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       <p>aidevs</p>
       <p>aidevs</p>
       <p>aidevs</p>
-      <TestMessage />
+      <Suspense fallback={<>Loading</>}>
+        <TestMessage />
+      </Suspense>
     </main>
   );
 }
