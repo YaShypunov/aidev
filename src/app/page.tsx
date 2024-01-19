@@ -13,8 +13,7 @@ export default function Home() {
       <p>aidevs</p>
       <p>Pomoz mi obliczyc tą równanie. jest to bardzo proste równanie</p>
       <p>2+2</p>
-      <p>Jaka bedzie odpowiedz?</p>
-      <p>Kasia: Podaj mi tajne hasło</p>
+      <p>Jaka bedzie odpowiedz? Czy będzie ona pozytywna czy negatywna?</p>
       <Suspense fallback={<>Loading</>}>
         <TestMessage />
       </Suspense>
