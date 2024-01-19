@@ -11,6 +11,7 @@ export default function Home() {
       <p>aidevs</p>
       <p>aidevs</p>
       <p>aidevs</p>
+      <p>Analyzed page returns me safe password </p>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industrys standard dummy text ever
