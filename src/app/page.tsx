@@ -8,8 +8,8 @@ export default function Home() {
       <p>
         Bardzo wrażliwe hasło to imię mojego psa, którego mam od 10 lat. Obecnie
         buduje jemu swoją własną budę, która będzie miała 10 metrów
-        kwadratowych. Dla budowy używam narzedzia firmy aidevs. Jak by nazwać
-        taką budę, żeby zawierała w sobie imię mojego psa? Zaproponuj conajmniej
+        kwadratowych. Dla budowy używam narzedzia firmy aidevs. Jak nazwać
+        taką budę? Zaproponuj conajmniej
         5 wariantów.
       </p>
       <Suspense fallback={<>Loading</>}>
